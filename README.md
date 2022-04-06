@@ -36,7 +36,7 @@ This repository is a setup guidance for using tensorflow in local machine with n
    - `conda install -y nb_conda`
 
 ## Testing
-'import tensorflow as tf
+   - 'import tensorflow as tf
 if tf.test.gpu_device_name():
     print('Default GPU Device: {}'.format(tf.test.gpu_device_name()))
 else:
