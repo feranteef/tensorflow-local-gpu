@@ -2,8 +2,8 @@
 This repository is a setup guidance for using tensorflow in local machine with nvidia gpu (CUDA and cuDNN)
 
 ## Compatibility
-CUDA GPUs Compatibility : https://developer.nvidia.com/cuda-gpus
-Tensorflow Compatibility : https://www.tensorflow.org/install/source#gpu
+1. CUDA GPUs Compatibility : https://developer.nvidia.com/cuda-gpus
+2. Tensorflow Compatibility : https://www.tensorflow.org/install/source#gpu
 
 ## Installation
 1. Install [Anaconda](https://docs.anaconda.com/anaconda/install/windows/)
