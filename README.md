@@ -34,3 +34,13 @@ This repository is a setup guidance for using tensorflow in local machine with n
 7. Install Jupyter Notebook
    - `conda install -y jupyter`
    - `conda install -y nb_conda`
+
+## Testing
+'import tensorflow as tf
+if tf.test.gpu_device_name():
+    print('Default GPU Device: {}'.format(tf.test.gpu_device_name()))
+else:
+    print("Please install GPU version of TF")'
+
+    
+
