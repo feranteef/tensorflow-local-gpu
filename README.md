@@ -13,7 +13,7 @@ This repository is a setup guidance for using tensorflow in local machine with n
 5. Download [cuDNN 8.0.5 for CUDA 11.0](https://developer.nvidia.com/rdp/cudnn-archive#a-collapse805-110)
 
    - Extract cuDNN zip file, copy all folders in `cuda` folder to `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0` (select replace)
-   - Add these to `Path` environment variables (`search edit environment variables for your account in windows start > advanced > Environment Variables... > select path on System variables > edit`)
+   - Add these to `Path` environment variables (`search "edit environment variables for your account" in windows start > advanced > Environment Variables... > select "path" on System variables > edit`)
 
       ```cmd
       C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin
