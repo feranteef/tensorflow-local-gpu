@@ -1,10 +1,14 @@
 # tensorflow-local-gpu
 This repository is a setup guidance for using tensorflow in local machine with nvidia gpu (CUDA and cuDNN)
 
+## Compatibility
+CUDA GPUs Compatibility : https://developer.nvidia.com/cuda-gpus
+Tensorflow Compatibility : https://www.tensorflow.org/install/source#gpu
+
 ## Installation
 1. Install [Anaconda](https://docs.anaconda.com/anaconda/install/windows/)
 2. Install [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) (Core Editor Only)
-3. Install CUDA Toolkit and cuDNN that compatible with os machine and python version, respectively. (check compatibility : https://www.tensorflow.org/install/source#gpu)
+3. Install CUDA Toolkit and cuDNN that compatible with os machine and python version, respectively. (for example CUDA Toolkit v11.0 with cuDNN v8.0.05)
 4. Install [CUDA Toolkit 11.0 Update](https://developer.download.nvidia.com/compute/cuda/11.0.3/network_installers/cuda_11.0.3_win10_network.exe)
 5. Download [cuDNN 8.0.5 for CUDA 11.0](https://developer.nvidia.com/rdp/cudnn-archive#a-collapse805-110)
 
